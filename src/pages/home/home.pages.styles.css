@@ -1,0 +1,15 @@
+.wow{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 25px 25px 25px 25px;
+}
+
+.wow h1{
+    text-align: center;
+}

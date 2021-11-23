@@ -6,17 +6,15 @@ import { SideBarLinks } from "./sidebar.links";
 const SideBar = () => {
   return (
     <div>
-      <nav className='navbar'>
-        <h1>WELCOME</h1>
-      </nav>
       <nav className="sidebar">
         <ul className="sidebar-links">
           {SideBarLinks.map((item, index) => {
             return (
               <Link to={item.path}>
-                
-                  <li className={item.className}>{item.icon}{item.title}</li>
-                
+                <li key={index} className={item.className}>
+                  {item.icon}
+                  {item.title}
+                </li>
               </Link>
             );
           })}
