@@ -10,6 +10,34 @@
   left: 0;
   
 }
+.sidebar .searchbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  width: 100%;
+  height: 3em;
+  background-color: rgb(255, 255, 255);
+  font-style: bold;
+  padding-left: 0.5em;
+  border-radius: 0.8em;
+  border-style: solid;
+  transition: all 0.5s;
+}
+.sidebar .searchbox:focus{
+  transform: scale(1.1);
+}
+
+.sidebar h1{
+  color: rgb(255, 0, 0);
+  font-size: 1.9rem;
+  text-align: center;
+  padding: 0% 5% 5% 5%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 10px red;
+  cursor:default;
+}
+
 .sidebar-links {
   width: 80%;
   align-items: center;
@@ -40,9 +68,15 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 
-  transition: transform 1s;
+  transition: transform 0.5s;
 }
-.sidebar-link:hover {
+
+.sidebar-link.active{
   transform: scale(1.1);
+  color: rgb(255, 0, 0);
+}
+
+.sidebar-link:hover {
+  transform: scale(1.05);
   color: rgb(255, 0, 0);
 }

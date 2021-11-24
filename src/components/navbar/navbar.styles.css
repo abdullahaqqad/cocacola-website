@@ -13,4 +13,8 @@
 .logo {
   width: 20em;
   height: 7em;
+  transition: transform 0.5s;
+}
+.logo:hover{
+    transform: scale(1.1) rotate(5deg);
 }

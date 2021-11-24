@@ -12,33 +12,33 @@ export const SideBarLinks = [
 
   },
   {
-    title: "Page 1",
-    path: "/page1",
+    title: "Analytics",
+    path: "/analytics",
     className: "sidebar-link",
-    icon:<FaIcons.FaPagelines/>
+    icon:<FaIcons.FaCalculator/>
   },
   {
-    title: "Page 2",
-    path: "/page2",
+    title: "Charts",
+    path: "/charts",
     className: "sidebar-link",
-    icon:<FaIcons.FaXRay/>
+    icon:<FaIcons.FaChartArea/>
   },
   {
-    title: "Page 3",
-    path: "/page3",
+    title: "Cars",
+    path: "/cars",
     className: "sidebar-link",
-    icon:<FaIcons.FaCookie/>
+    icon:<FaIcons.FaCar/>
   },
   {
-    title: "Page 4",
-    path: "/page4",
+    title: "Logs",
+    path: "/logs",
     className: "sidebar-link",
-    icon:<FaIcons.FaWindowClose/>
+    icon:<FaIcons.FaHistory/>
   },
   {
-    title: "Page 5",
-    path: "/page5",
+    title: "Products",
+    path: "/products",
     className: "sidebar-link",
-    icon:<FaIcons.FaSortAmountDown/>
+    icon:<FaIcons.FaShoppingBasket/>
   },
 ];
