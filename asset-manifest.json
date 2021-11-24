@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/cocacola-website/static/css/main.04d690bb.chunk.css",
+    "main.js": "/cocacola-website/static/js/main.6854fa1d.chunk.js",
+    "main.js.map": "/cocacola-website/static/js/main.6854fa1d.chunk.js.map",
+    "runtime-main.js": "/cocacola-website/static/js/runtime-main.cfa84fdc.js",
+    "runtime-main.js.map": "/cocacola-website/static/js/runtime-main.cfa84fdc.js.map",
+    "static/js/2.1588b567.chunk.js": "/cocacola-website/static/js/2.1588b567.chunk.js",
+    "static/js/2.1588b567.chunk.js.map": "/cocacola-website/static/js/2.1588b567.chunk.js.map",
+    "index.html": "/cocacola-website/index.html",
+    "static/css/main.04d690bb.chunk.css.map": "/cocacola-website/static/css/main.04d690bb.chunk.css.map",
+    "static/js/2.1588b567.chunk.js.LICENSE.txt": "/cocacola-website/static/js/2.1588b567.chunk.js.LICENSE.txt",
+    "static/media/cocacola.bdf88468.png": "/cocacola-website/static/media/cocacola.bdf88468.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfa84fdc.js",
+    "static/js/2.1588b567.chunk.js",
+    "static/css/main.04d690bb.chunk.css",
+    "static/js/main.6854fa1d.chunk.js"
+  ]
+}
